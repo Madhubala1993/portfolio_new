@@ -13,7 +13,7 @@ body {
   background-color: #003366;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   padding: 10px;
 }
@@ -22,12 +22,11 @@ body {
   justify-content: space-around;
 }
 .appbar-contents{
-
   /* margin-left: auto; */
   display: flex;
   gap:50px;
  font-size: 25px;
-
+margin-right: 20px;
 }
 .appbar-contents:hover{ 
   cursor: pointer;
@@ -182,7 +181,7 @@ section {
   width:min-content;
   height:450px;
   margin: 50px;
-  margin-left: 850px;
+  margin-left: 750px;
 }
 #child2 {
   position: absolute;
