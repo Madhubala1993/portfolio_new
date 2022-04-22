@@ -276,7 +276,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   .homepage-container{
     height:850px;
   }
@@ -337,6 +337,7 @@ section {
     font-size: 20px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .appbar{
     position: fixed !important;
@@ -365,7 +366,7 @@ section {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
-    height:100vh;
+    height:700px;
   }
   .profile-picture{
     width:250px;
@@ -394,7 +395,6 @@ section {
   }
   .projects-container{
     display: flex;
-    background-color: antiquewhite;
     align-items: center;
     justify-content: center;
   }
@@ -447,5 +447,8 @@ section {
  .contactme-body{
    display: flex;
    flex-direction: column;
+ }
+ .profile-picture{
+   display: none;
  }
 }
