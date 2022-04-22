@@ -34,7 +34,7 @@ const projects = [
   {
     name: "Movies App",
     description:
-      "This is a basic movies app where we can do CRD operations. This application includes, like and dislikes buttons, movie summary, trailers and we can able to edit a movie detail,create new movies and delete the movies. It also includes a fun game called Tic-Tac-Toe.",
+      "This is a basic movies app where we can do CRUD operations. This application includes, like and dislikes buttons, movie summary, trailers and we can able to edit a movie detail,create new movies and delete the movies. It also includes a fun game called Tic-Tac-Toe.",
     pic: moviesapp,
     color_pic: moviesapp_color,
     live_demo: "https://moviesapp-madhu2022.netlify.app/",
