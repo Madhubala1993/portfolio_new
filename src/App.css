@@ -445,4 +445,8 @@ section {
    height: 40px;
    font-size: 12px;
  }
+ .contactme-body{
+   display: flex;
+   flex-direction: column;
+ }
 }
