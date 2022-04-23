@@ -256,7 +256,17 @@ section {
 .links:hover{
   cursor: pointer;
 }
-
+/* @media (min-width: 801px) and (max-width: 1000px)  */
+@media screen and (max-width: 1750px) {
+  #parent2 {
+    margin-left: 600px;
+ }
+}
+@media screen and (max-width: 1600px) {
+  #parent2 {
+    margin-left: 400px;
+ }
+}
 @media screen and (max-width: 1440px) {
   #child1 {
     width:600px;
@@ -273,6 +283,77 @@ section {
   }
   .aboutme-container{
     height:100vh;
+  }
+}
+@media screen and (max-width: 1350px) {
+  #parent1 {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+    margin-left: 50px;
+  }
+  #child1 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 50px;
+    left: 650px;
+  }
+  
+  #parent2 {
+    position: relative;
+    width:min-content;
+    height:fit-content;
+    margin-left: 250px;
+  }
+  #child2 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 60px;
+    right: 550px;
+  }
+ 
+}
+@media (min-width: 1001px) and (max-width: 1250px) {
+  .project-pic{
+    margin: 0;
+    width:500px;
+    height:250px;
+  }
+  #parent1 {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+  }
+  #child1 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 30px;
+    left: 350px;
+  }
+  
+  #parent2 {
+    position: relative;
+    width:min-content;
+    height:fit-content;
+    margin-left: 450px;
+  }
+  #child2 {
+    position: absolute;
+    width:450px;
+    height:fit-content;
+    top: 40px;
+    right: 350px;
+  }
+  .project-title{
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .project-content{
+    font-size: 10px;
+    margin-left: 15px;
   }
 }
 
@@ -308,8 +389,8 @@ section {
     position: absolute;
     width:450px;
     height:fit-content;
-    /* top: 50px;
-    left: 350px; */
+    top: 50px;
+    left: 350px;
   }
   
   #parent2 {
